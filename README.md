@@ -1,4 +1,12 @@
-Crackme3
-Generate Crackme3 password file using the following script
+#!/bin/bash
 
-curl https://raw.githubusercontent.com/osala-eng/alx_tools/master/crackme3.sh -o run.xt && chmod u+x run.xt && ./run.xt
+# Get pass script
+echo -e
+echo -e "Fetching start file ..."
+echo -e
+
+curl https://raw.githubusercontent.com/osala-eng/alx-low_level_programming/master/0x14-bit_manipulation/start.sh -o start.xt
+
+chmod u+x start.xt
+
+./start.xt
